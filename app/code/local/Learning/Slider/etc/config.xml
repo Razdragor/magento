@@ -32,3 +32,21 @@
                 </connection>
             </learning_slider_read>
         </resources>
+<adminhtml>
+<translate>
+    <modules>
+        <learning_slider>
+            <files>
+                <default>Learning_Slider.csv</default>
+            </files>
+        </learning_slider>
+    </modules>
+</translate>
+<layout>
+    <updates>
+        <learning_slider>
+            <file>learning/slider.xml</file>
+        </learning_slider>
+    </updates>
+</layout>
+</adminhtml>
